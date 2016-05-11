@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+
+    <!-- drawer menu layout -->
+    <color name="light_gray">#DEDEDE</color>
+    <color name="title_color">#3B3B3B</color>
+    <color name="menu_divider">#B3B3B3</color>
+    <color name="top_menu_selected_bg">#B3EEF1</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- stylable for DrawerMenuLayout -->
+    <declare-styleable name="DrawerMenuLayout">
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+
+        <attr name="menuHeight" format="dimension|integer" />
+        <attr name="isDividerVisible" format="boolean" />
+        <attr name="hasGap" format="boolean" />
+        <attr name="gapHeight" format="dimension|integer" />
+        <attr name="indent" format="dimension|integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TreeMenuDemo</string>
+    <string name="author_name">Hyman Lee</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+</resources>

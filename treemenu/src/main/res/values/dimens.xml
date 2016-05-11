@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- drawer menu layout -->
+    <dimen name="menu_height">46dp</dimen>
+    <dimen name="left_image_size">26dp</dimen>
+    <dimen name="right_image_size">24dp</dimen>
+    <dimen name="title_margin_left">15dp</dimen>
+    <dimen name="title_margin_right">10dp</dimen>
+    <dimen name="subtitle_indent">20dp</dimen>
+    <dimen name="menu_padding_left">16dp</dimen>
+</resources>

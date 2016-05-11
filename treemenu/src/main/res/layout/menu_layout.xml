@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@drawable/menu_bg_selector"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="10dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/leftImageView"
+        android:layout_width="@dimen/left_image_size"
+        android:layout_height="@dimen/left_image_size"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:clickable="false"
+        android:src="@drawable/logout" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/title_margin_left"
+        android:layout_marginRight="@dimen/title_margin_right"
+        android:text="Title"
+        android:clickable="false"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:textColor="@color/title_color"
+        android:textSize="14sp" />
+
+    <!--<TextView
+        android:id="@+id/subTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#5E5E5E"
+        android:text="this is a test"
+        android:layout_below="@id/titleTextView"
+        android:layout_toRightOf="@id/leftImageView"
+        android:layout_marginLeft="20dp"/>-->
+
+    <ImageView
+        android:id="@+id/rightImageView"
+        android:layout_width="@dimen/right_image_size"
+        android:layout_height="@dimen/right_image_size"
+        android:layout_gravity="end|center_vertical"
+        android:scaleType="centerCrop"
+        android:clickable="false"
+        android:src="@drawable/enter" />
+
+</LinearLayout>
