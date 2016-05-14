@@ -34,10 +34,26 @@ Thus i want to write this library that can help you to create a two-layer or thr
 
 Installing
 ----
+###Maven  
+Maven dependency:
+```XML  
+<dependency>
+  <groupId>me.hyman</groupId>
+  <artifactId>treemenu</artifactId>
+  <version>1.0.2</version>
+  <type>pom</type>
+</dependency>
+```  
+
+###Gradle  
+Gradle dependency:
+```groovy  
+compile 'me.hyman:treemenu:1.0.2'
+```
 ###Cloning by Git  
-Clone the library to local by typing command in terminal:   
+Fork it， than clone the repository to local by typing command in terminal，exchanging `xxx` for your github username:   
 ```shell  
-git clone https://github.com/MrBigBang/TreeMenu.git
+git clone https://github.com/xxx/TreeMenu.git
 ```
 
 
@@ -56,7 +72,7 @@ How to use?
 	``` 
 	 
 	There some attributes can be used in XML:   
-	`menuHeight` is used to define height of each menu item;  
+	`menuHeight` is used to define the height of each menu item;  
 	`isDividerVisible` is used to set visibility of dividers between two menu item,  
 	`indent` set the submenu's indent relative the left of its father menu.		
 	
@@ -105,7 +121,7 @@ How to use?
         drawerMenuLayout.createMenus(topMenuList);
 	```
 	
- In order to let user handle menu click event, there is a  interface `DrawerMenuLayout.OnMenuClickListener` which activity or fragment should implement.  
+ In order to let user handle menu click event, there is an  interface `DrawerMenuLayout.OnMenuClickListener` which activity or fragment should implement.  
  ```JAVA
  drawerMenuLayout.setOnMenuClickListener(this);
  // or use an anonymous class
@@ -113,7 +129,7 @@ How to use?
 
 Contributing
 ----
-This Library is new created, which may has a lot of bug and deficiencies. and my programming competence is limited. So every kand of contribution is welcomed.  
+This Library is new created, which may have a lot of bugs and deficiencies. and my programming competence is limited. So all kands of contribution are welcomed.  
 
 License
 ----
