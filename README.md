@@ -1,6 +1,6 @@
 TreeMenu
 =================
-Tree menu is commonly designed in Apps. This Android library makes it very easy to create tree menus in an Android APP . You need not write xml files any more to create tree menus By using **TreeMenu**. You can easily create a three-layer tree menu at most with this library. Each menu item created has a left image, a title, a right image and can be expanded or collpased when there are sub menus belong it.  
+Tree menu is commonly designed in Apps. This Android library makes it very easy to create tree menus in an Android APP . You need not write xml files any more to create tree menus By using **TreeMenu**. You can easily create a three-layer tree menu at most with this library. Each menu item created has a left image, a title, a right image and can be expanded or collpased when there are sub menus belong to it.  
 
 Here is a short gif showing the demo written with this library:  
 ![treemenu demo](./TreeMenuDemo.gif) 
@@ -8,7 +8,7 @@ Here is a short gif showing the demo written with this library:
 
 Goal
 ----
-When i use DrawerLayout in App, if there is a menu list in Navigation part , I always should write xml file like this:  
+When I use DrawerLayout in App, if there is a menu list in Navigation part , I always should write xml file like this:  
 ```XML
 <android.support.v4.widget.DrawerLayout
 xmlns:android="http://schemas.android.com/apk/res ... />  
@@ -30,7 +30,7 @@ xmlns:android="http://schemas.android.com/apk/res ... />
 </android.support.v4.widget.DrawerLayout>
 ```    
 some one would think it's convient to use NavigationView (in Android Design Support Library), but it is not convient to create a tree menu which is two-layer or three-layer.  
-Thus i want to write this library that can help you to create a two-layer or three-layer tree menu with minimal efforts and time, provides many very useful API.
+Thus I want to write this library that can help you to create a two-layer or three-layer tree menu with minimal efforts and time, and provides many powerful API.
 
 Installing
 ----
@@ -129,7 +129,7 @@ How to use?
 
 Contributing
 ----
-This Library is new created, which may have a lot of bugs and deficiencies. and my programming competence is limited. So all kands of contribution are welcomed.  
+This Library is new created, which may have a lot of bugs and deficiencies. and my programming competence is limited. So all kinds of contribution are welcomed.  
 
 License
 ----
